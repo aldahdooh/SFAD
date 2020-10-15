@@ -1,7 +1,6 @@
+# About
+## Authors
 <table class="center">
-  <tr>
-    <td colspan="3", style="text-align:center">Authors</td>
-  </tr>
   <tr>
     <td>ALDAHDOOH Ahmed</td>
     <td>HAMIDOUCHE Wassim</td>
@@ -10,7 +9,28 @@
   <tr>
     <td colspan="3">Univ Rennes, INSA Rennes, CNRS, IETR - UMR 6164, F-35000 Rennes, France</td>
   </tr>
+  <tr>
+    <td colspan="3">email: ahmed.aldahdooh(at)insa-rennes(.)fr</td>
+  </tr>
 </table>
+
+## Paper Link
+Please refer to [link](https://github.com/aldahdooh/SFAD).
+
+## Abstract
+Security-sensitive applications that relay on Deep Neu-ral  Networks  (DNNs)  are  vulnerable  to  small  perturba-tions crafted to generate Adversarial Examples (AEs) thatare imperceptible to human and cause DNN to misclassifythem.   Many  defense  and  detection  techniques  have  beenproposed.   The  state-of-the-art  detection  techniques  havebeen designed for specific attacks or broken by others, needknowledge  about  the  attacks,  are  not  consistent,  increasemodel parameters overhead, are time-consuming, or havelatency in inference time. To trade off these factors, we pro-pose a novel unsupervised detection mechanism that usesthe  selective  prediction,  processing  model  layers  outputs,and  knowledge  transfer  concepts  in  a  multi-task  learningsetting. It is called Selective and Feature based AdversarialDetection (SFAD).  Experimental results show that the pro-posed approach achieves comparable results to the state-of-the-art methods against tested attacks in white, black, andgray boxes scenarios. Moreover, results show that SFAD isfully robust against High Confidence Attackss (HCAs) forMNIST and partially robust for CIFAR-10 datasets.
+
+# SFAD
+## Architecture
+### Detector
+### Selective AEs Classifiers
+### Selective Knowledge Transfere Classifier
+
+## Performance at (FP=10%)
+### Performance against white-box attacks
+### Performance against black-box attacks
+### Performance against grey-box attacks
+
 
 
 ## Welcome to GitHub Pages
