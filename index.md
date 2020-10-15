@@ -1,5 +1,11 @@
 # About
 ## Authors
+| ALDAHDOOH _Ahmed_, HAMIDOUCHE _Wassim_, DEFORGES _Olivier_|
+|:-:|
+|Univ Rennes, INSA Rennes, CNRS, IETR - UMR 6164, F-35000 Rennes, France|
+|email: [ahmed.aldahdooh(at)insa-rennes(.)fr](mailto:ahmed.aldahdooh@insa-rennes.fr)|
+
+
 <table class="center">
   <tr>
     <td>ALDAHDOOH Ahmed</td>
