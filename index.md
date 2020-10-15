@@ -7,7 +7,9 @@
 |Univ Rennes, INSA Rennes, CNRS, IETR - UMR 6164, F-35000 Rennes, France|
 |:-:|
 |email: [ahmed.aldahdooh(at)insa-rennes(.)fr](mailto:ahmed.aldahdooh@insa-rennes.fr)|
-
+|ALDAHDOOH Ahmed, HAMIDOUCHE Wassim, DEFORGES Olivier|
+|Univ Rennes, INSA Rennes, CNRS, IETR - UMR 6164, F-35000 Rennes, France|
+|email: [ahmed.aldahdooh(at)insa-rennes(.)fr](mailto:ahmed.aldahdooh@insa-rennes.fr)|
 
 ## Paper Link
 Please refer to [link](https://github.com/aldahdooh/SFAD).
