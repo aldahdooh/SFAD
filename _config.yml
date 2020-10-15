@@ -1,4 +1,4 @@
 theme: jekyll-theme-cayman
 title: "SFAD: Selective and Features based Adversarial Detection"
-description: "Unsupervised Adversarial Examples (AEs) detector"
+subtitle: "Unsupervised Adversarial Examples (AEs) detector"
 show_downloads: false
