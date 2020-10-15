@@ -1,3 +1,3 @@
 theme: jekyll-theme-minimal
-title: null
+title: "SFAD: Selective and Features based Adversarial Detection"
 description: "Unsupervised Adversarial Examples (AEs) detector"
