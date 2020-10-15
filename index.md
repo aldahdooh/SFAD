@@ -1,8 +1,8 @@
 # About
 ## Authors
+
 |ALDAHDOOH Ahmed, HAMIDOUCHE Wassim, DEFORGES Olivier|
 |:-:|
-
 
 |Univ Rennes, INSA Rennes, CNRS, IETR - UMR 6164, F-35000 Rennes, France|
 |:-:|
