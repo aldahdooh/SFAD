@@ -1,3 +1,18 @@
+<table class="center">
+  <tr>
+    <td colspan="3", style="text-align:center">Authors</td>
+  </tr>
+  <tr>
+    <td>ALDAHDOOH Ahmed</td>
+    <td>HAMIDOUCHE Wassim</td>
+    <td>DEFORGES Olivier</td>
+  </tr>
+  <tr>
+    <td colspan="3">Univ Rennes, INSA Rennes, CNRS, IETR - UMR 6164, F-35000 Rennes, France</td>
+  </tr>
+</table>
+
+
 ## Welcome to GitHub Pages
 
 You can use the [editor on GitHub](https://github.com/aldahdooh/SFAD/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
