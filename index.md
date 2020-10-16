@@ -19,11 +19,16 @@ Security-sensitive applications that relay on Deep Neu-ral  Networks  (DNNs)  ar
 
 # SFAD:Selective and Feature based AdversarialDetection
 ## _Architecture_
-### Detector
+### Detector (High-level Model Archeticture)
+The  input  sample  is passed  to  the  CNN  model  to  get  outputs  of N-last  layers  to  be processed in the detector classifiers.  SFAD yields prediction and selective probabilities to determine the prediction class of the inputsample and whether it is adversarial or not.
 <p align="center">
   <img src="{{site.url}}/images/abstract_model.png" width="1200" title="High-level Model Archeticture">
 </p>
 
+### Detector (Model Archeticture)
+<p align="center">
+  <img src="{{site.url}}/images/detector_design.png" width="1200" title="Model Archeticture">
+</p>
 
 ### Selective AEs Classifiers
 ### Selective Knowledge Transfere Classifier
