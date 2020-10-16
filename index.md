@@ -20,6 +20,10 @@ Security-sensitive applications that relay on Deep Neu-ral  Networks  (DNNs)  ar
 # SFAD:Selective and Feature based AdversarialDetection
 ## _Architecture_
 ### Detector
+<p align="center">
+  <img src="https://github.com/aldahdooh/SFAD/blob/gh-pages/images/abstract_model.png" width="1200" title="High-level Model Archeticture">
+</p>
+
 ### Selective AEs Classifiers
 ### Selective Knowledge Transfere Classifier
 
