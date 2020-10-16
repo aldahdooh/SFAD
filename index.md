@@ -53,7 +53,7 @@ The  input  sample  is passed  to  the  CNN  model  to  get  outputs  of N-last 
 <p align="center">
   <table>
       <tr>
-        <td><img src="{{site.url}}/images/module_knowledge.png" width="1200" title="Selective Knowledge Transfere Classifier"></td>
+        <td><img src="{{site.url}}/images/module_transfer.png" width="1200" title="Selective Knowledge Transfere Classifier"></td>
       </tr>
       <tr>
         <td>Description</td>
