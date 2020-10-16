@@ -27,7 +27,14 @@ The  input  sample  is passed  to  the  CNN  model  to  get  outputs  of N-last 
 
 ### Detector (Model Archeticture)
 <p align="center">
-  <img src="{{site.url}}/images/detector_design.png" width="1200" title="Model Archeticture">
+  <table>
+      <tr>
+        <td><img src="{{site.url}}/images/detector_design.png" width="1200" title="Model Archeticture"></td>
+      </tr>
+      <tr>
+        <td>Description</td>
+      </tr>
+   </table>
 </p>
 
 ### Selective AEs Classifiers
@@ -35,12 +42,24 @@ The  input  sample  is passed  to  the  CNN  model  to  get  outputs  of N-last 
   <table>
       <tr>
         <td><img src="{{site.url}}/images/module_feature.png" width="1200" title="Selective AEs Classifiers"></td>
-        <td>Textes</td>
+      </tr>
+      <tr>
+        <td>Description</td>
       </tr>
    </table>
 </p>
 
 ### Selective Knowledge Transfere Classifier
+<p align="center">
+  <table>
+      <tr>
+        <td><img src="{{site.url}}/images/module_knowledge.png" width="1200" title="Selective Knowledge Transfere Classifier"></td>
+      </tr>
+      <tr>
+        <td>Description</td>
+      </tr>
+   </table>
+</p>
 
 ## _Performance at (FP=10%)_
 ### Performance against _white-box_ attacks
