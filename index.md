@@ -69,7 +69,7 @@ The  input  sample  is passed  to  the  CNN  model  to  get  outputs  of N-last 
         <td>Description</td>
       </tr>
       <tr>
-        <td><img src="{{site.url}}/images/table1.png" width="1200" title="Performance against white-box attacks"></td>
+        <td><img src="{{site.url}}/images/table1.png" width="1600" title="Performance against white-box attacks"></td>
       </tr>
    </table>
 </p>
@@ -81,7 +81,7 @@ The  input  sample  is passed  to  the  CNN  model  to  get  outputs  of N-last 
         <td>Description</td>
       </tr>
       <tr>
-        <td><img src="{{site.url}}/images/table2.png" width="1200" title="Performance against black-box attacks"></td>
+        <td><img src="{{site.url}}/images/table2.png" width="1600" title="Performance against black-box attacks"></td>
       </tr>
    </table>
 </p>
@@ -93,7 +93,7 @@ The  input  sample  is passed  to  the  CNN  model  to  get  outputs  of N-last 
         <td>Description</td>
       </tr>
       <tr>
-        <td><img src="{{site.url}}/images/table3.png" width="1200" title="Performance against grey-box attacks"></td>
+        <td><img src="{{site.url}}/images/table3.png" width="1600" title="Performance against grey-box attacks"></td>
       </tr>
    </table>
 </p>
