@@ -34,7 +34,8 @@ The  input  sample  is passed  to  the  CNN  model  to  get  outputs  of N-last 
 <p align="center">
   <table>
       <tr>
-        <img src="{{site.url}}/images/module_feature.png" width="1200" title="Selective AEs Classifiers">
+        <td><img src="{{site.url}}/images/module_feature.png" width="1200" title="Selective AEs Classifiers"></td>
+        <td>Textes</td>
       </tr>
    </table>
 </p>
