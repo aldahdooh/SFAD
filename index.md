@@ -21,8 +21,9 @@ Security-sensitive applications that relay on Deep Neu-ral  Networks  (DNNs)  ar
 ## _Architecture_
 ### Detector
 <p align="center">
-  <img src="https://github.com/aldahdooh/SFAD/blob/gh-pages/images/abstract_model.png" width="1200" title="High-level Model Archeticture">
+<img src="https://github.com/aldahdooh/SFAD/blob/gh-pages/images/abstract_model.png" width="1200" title="High-level Model Archeticture">
 </p>
+![Image](https://github.com/aldahdooh/SFAD/blob/gh-pages/images/abstract_model.png?raw=true)
 
 ### Selective AEs Classifiers
 ### Selective Knowledge Transfere Classifier
