@@ -72,7 +72,7 @@ Tables show selective, confidence, and ensemble detection accuracies  of  SFAD  
 <p align="center">
   <table>
     <tr>
-        <td>We tested the proposed model with different typesof  attacks.  FGSM, PGD, and CW, DF, and HCA attacks are tested.  </td>
+        <td>We tested the proposed model with different typesof  attacks.  Fast Gradient Sign Method (FGSM), Projected Gradient Descent (PGD), and Carlini-Wagner (CW), DF (DeepFool), and High Confidence Attacks (HCA) attacks are tested.  </td>
       </tr>
       <tr>
         <td><img src="{{site.url}}/images/table1.png" width="1600" title="Performance against white-box attacks"></td>
