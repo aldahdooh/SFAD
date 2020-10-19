@@ -67,11 +67,12 @@ The  input  sample  is passed  to  the  CNN  model  to  get  outputs  of N-last 
 </p>
 
 ## _Performance at (FP=10%)_
+Tables show selective, confidence, and ensemble detection accuracies  of  SFAD  prototype  for  MNIST  and  CIFAR10 datasets.   It  also  shows  the  baseline  DNN  prediction  accuracy  for  the  AEs  in  “Baseline  DNN”  row  and  for  the not detected AEs in “prediction” row.  The “Total” row is the total accuracy of detected and truly classified/predicted samples.
 ### Performance against _white-box_ attacks
 <p align="center">
   <table>
     <tr>
-        <td>Description</td>
+        <td>We tested the proposed model with different typesof  attacks.  FGSM, PGD, and CW, DF, and HCA attacks are tested.  </td>
       </tr>
       <tr>
         <td><img src="{{site.url}}/images/table1.png" width="1600" title="Performance against white-box attacks"></td>
@@ -83,7 +84,7 @@ The  input  sample  is passed  to  the  CNN  model  to  get  outputs  of N-last 
 <p align="center">
   <table>
       <tr>
-        <td>Description</td>
+        <td>For the black-box attacks, Threshold Attack (TA), Pixel Attack (PA), and Spatial Transformation  attack  (ST) attacks  are  used  in  the  testing process</td>
       </tr>
       <tr>
         <td><img src="{{site.url}}/images/table2.png" width="1600" title="Performance against black-box attacks"></td>
@@ -95,7 +96,7 @@ The  input  sample  is passed  to  the  CNN  model  to  get  outputs  of N-last 
 <p align="center">
   <table>
       <tr>
-        <td>Description</td>
+        <td>Gray-box scenario assumes that we knew only the model training  data  and  the  output  of  the  DNN  model  and  we did  not  know  the  model  architecture.   Hence,  we  trained two  models  as  substitution  models  named  Model#2  andModel#3 for MNIST and CIFAR-10.  Then, white-box based AEs are generated using the substitution models.</td>
       </tr>
       <tr>
         <td><img src="{{site.url}}/images/table3.png" width="1600" title="Performance against grey-box attacks"></td>
