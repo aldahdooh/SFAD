@@ -32,7 +32,7 @@ The  input  sample  is passed  to  the  CNN  model  to  get  outputs  of N-last 
         <td><img src="{{site.url}}/images/detector_design.png" width="1200" title="Model Archeticture"></td>
       </tr>
       <tr>
-        <td>Description</td>
+        <td>It is believed that the lastN-layers in the DNN have potentials  in  detecting  and  rejecting  AEs.   At this very high level of presentation, AEs are indistinguishable from samples of the target class. Unlike other works, in this work, 1) the representative of the last layer outputs Z<sub>j</sub>, as features, are processed.  2) Multi-Task Learning (MTL) is used.   MTL has an advantage of combining related tasks with one or more loss function(s) and  it  does  better  generalization  especially  with  the  help of  the  auxiliary  functions. 3) selective prediction concept is utilized. In order to build safe DL models, prediction uncertainties,S<sub>qj</sub> and S<sub>t</sub>, have to be estimated and a rejection mechanism to control the uncertaintyhas to be identified as well.  Here, a Selective and Feature based Adversarial Detection (SFAD) method is demonstrated. As depicted in the Figure, SFAD consists of two main blocks (in grey); the selective AEs classifiers block and the selective knowledge transfer classifier block.   Besides the DNN prediction,P<sub>b</sub>, the two blocks give as output 1) detector  prediction  probabilities,P<sub>qj</sub>,  and P<sub>t</sub>,  and  selective probabilities, S<sub>qj</sub> and S<sub>t</sub>. The detection blocks (in red) take these probabilities to identify adversarial status of input x.</td>
       </tr>
    </table>
 </p>
