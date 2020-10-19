@@ -1,6 +1,6 @@
 # About
 Code for Selective and Features based Adversarial Detection _**(SFAD)**_ technique that is presented in the paper "Selective and Features based Adversarial Detection" by ALDAHDOOH Ahmed, HAMIDOUCHE Wassim, and DEFORGES Olivier at ------- 2021 -------
-###### Note: this work uses SelectiveNet concept that is implemented [here.](https://github.com/anonygit32/SelectiveNet)
+##### Note: this work uses SelectiveNet concept that is implemented [here.](https://github.com/anonygit32/SelectiveNet)
 
 # Reqiuerment
 - Python 3 (tested on Python 3.8.5)
