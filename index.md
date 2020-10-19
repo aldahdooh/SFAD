@@ -58,7 +58,10 @@ The  input  sample  is passed  to  the  CNN  model  to  get  outputs  of N-last 
         <td><img src="{{site.url}}/images/module_transfer.png" width="1200" title="Selective Knowledge Transfere Classifier"></td>
       </tr>
       <tr>
-        <td>XXX</td>
+        <td>The idea behind this block is that each set of inputs (the confidence values of _Y_ classes of _j_ classifier) is considered as a special feature of the clean input and combining different sets  of  the  these  features  makes  the  features  morerobust.  Hence, we transfer this knowledge of clean inputs to the classifier.  Besides, in the inference time, we believe that AE will generate different distribution of the confidence values and if it was able to fool one classifier (selective AEs classifier), it may not fool the others.<hr/>
+          Prediction Task:  the output of the prediction task of the selective AEs classifier q<sub>j</sub>(z) is class  prediction  values P<sub>qj</sub>.   These  confidence  values  are concatenated  with N outputs  from  prediction  tasks  to  be as  input Q of  the  selective knowledge transfer block as illustrated in the Figure. Its classifier consists of one or more dense layer(s) and yields confidence values for _Y_ classes P<sub>t</sub>. <hr/>
+        Selective  Task:  the selectivetask is also integrated in the knowledge transfer classifier to selectively predict/reject AEs.<hr/> 
+        Auxiliary task: Similar to selective AEs classifiers,knowledge transfer classifier has the auxiliary network network, _h_,  that is trained using the same prediction task asassigned to _t_</td>
       </tr>
    </table>
 </p>
