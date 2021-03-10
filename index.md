@@ -1,4 +1,4 @@
-## Authors
+### Authors
 
 <p align="center">
   <table>
@@ -15,6 +15,9 @@
       </tr>
   </table>
 </p>
+
+### Paper
+[Preprint](https://arxiv.org/abs/2103.05354)
 
 ## Abstract
 Security-sensitive applications that relay on Deep Neu-ral  Networks  (DNNs)  are  vulnerable  to  small  perturba-tions crafted to generate Adversarial Examples (AEs) thatare imperceptible to human and cause DNN to misclassifythem.   Many  defense  and  detection  techniques  have  beenproposed.   The  state-of-the-art  detection  techniques  havebeen designed for specific attacks or broken by others, needknowledge  about  the  attacks,  are  not  consistent,  increasemodel parameters overhead, are time-consuming, or havelatency in inference time. To trade off these factors, we pro-pose a novel unsupervised detection mechanism that usesthe  selective  prediction,  processing  model  layers  outputs,and  knowledge  transfer  concepts  in  a  multi-task  learningsetting. It is called **_Selective and Feature based AdversarialDetection (SFAD)_**.  Experimental results show that the pro-posed approach achieves comparable results to the state-of-the-art methods against tested attacks in white, black, andgray boxes scenarios. Moreover, results show that SFAD isfully robust against High Confidence Attackss (HCAs) forMNIST and partially robust for CIFAR-10 datasets.
