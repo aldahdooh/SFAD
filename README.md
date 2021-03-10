@@ -11,7 +11,7 @@ Code for Selective and Features based Adversarial Detection _**(SFAD)**_ techniq
     * mode: string: train or load
     * model_name: string: your model file name
  ```
- # to train CNN model for mnist MNIST. It will train the model in models/mnist/model_mnist.py
+ # to train CNN model for MNIST models/mnist/model_mnist.py
  run train_model_mnist.py "mode" "model_name.h5" 
  ```
 - Train the SFAD detector. The detector classifiers will be saved in _checkpoints_ folder.
