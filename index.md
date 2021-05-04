@@ -111,5 +111,12 @@ Tables show selective, confidence, and ensemble detection accuracies  of  SFAD  
 
 ## Citation
 ```
-
+@misc{aldahdooh2021selective,
+      title={Selective and Features based Adversarial Example Detection}, 
+      author={Ahmed Aldahdooh and Wassim Hamidouche and Olivier Déforges},
+      year={2021},
+      eprint={2103.05354},
+      archivePrefix={arXiv},
+      primaryClass={cs.CR}
+}
 ```
