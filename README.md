@@ -4,7 +4,8 @@ Code for Selective and Features based Adversarial Detection _**(SFAD)**_ techniq
 
 # Reqiuerment
 - Python 3 (tested on Python 3.8.5)
-- Keras (tested on Keras 2.3.1)
+- Keras (tested on Keras 2.3.1) 
+- [ART](https://github.com/Trusted-AI/adversarial-robustness-toolbox) 1.5 Library to generate adversarial attacks. 
 
 # Training
 - Train the baseline classifier for MNIST, and/or CIFAR10. The model will be saved in _checkpoints_ folder.
